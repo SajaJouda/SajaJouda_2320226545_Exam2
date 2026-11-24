@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         textWatcher();
 
         binding.loginButton.setOnClickListener(view -> {
-            startActivity(new Intent(getApplicationContext(), ModeActivity.class));
+        startActivity(new Intent(getApplicationContext(), ModeActivity.class));
         });
     }
 
